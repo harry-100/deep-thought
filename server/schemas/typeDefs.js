@@ -29,7 +29,7 @@ type Query {
     users: [User]
     user(username: String!): User
     thoughts(username: String):[Thought]
-    thought(id: ID!): Thought
+    thought(_id: ID!): Thought
 }
 `;
 //  here we naming our query as hello and data type it returns is string
